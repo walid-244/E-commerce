@@ -1,0 +1,78 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    height: 50px;
+    padding: 0 20px;
+    margin-top: 30px;
+    background-color: hsla(217, 9%, 45%, 0.109);
+    border-radius: 5px;
+}
+
+.btnadd {
+    color: hsl(26, 100%, 55%);
+    border: none;
+    background-color: transparent;
+}
+
+.btnsub {
+    color: hsl(26, 100%, 55%);
+    border: none;
+    background-color: transparent;
+}
+
+.btn {
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    gap: 10px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.svg {
+    color: white;
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .quantity {
+        width: 60%;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+}

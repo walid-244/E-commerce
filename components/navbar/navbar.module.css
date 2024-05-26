@@ -1,0 +1,147 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid hsla(217, 9%, 45%, 0.316);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconUserImage {
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0 20px;
+}
+
+.logoImage {
+    padding-bottom: 10px;
+}
+
+.iconCart {
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.iconUser {
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.listItem {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: hsla(217, 9%, 45%, 0.672);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.divLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.overlay {
+
+    position: fixed;
+    z-index: 120;
+    top: 1%;
+}
+
+@media (max-width: 768px) {
+    .logoImages {
+        display: none;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logoImage {
+        display: none;
+
+    }
+
+    .logoImages {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .iconUser {
+        margin-right: 30px;
+    }
+
+    .icon {
+        gap: 40px;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+
+    .iconUserImage {
+        width: 50px;
+        height: 50px;
+
+    }
+}
